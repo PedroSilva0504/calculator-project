@@ -8,6 +8,8 @@ align-items:center;
 justify-content:center;
 height:100vh;
 background-image: url(https://wallpapercave.com/wp/wp2561072.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 `
 
 export const H1 = styled.h1`
@@ -19,12 +21,13 @@ color: white;
 border-top-right-radius:8px;
 border-top-left-radius:8px;
 padding-right:20px;
+font-size: 60px;
 `
 
 
 export const Div = styled.div`
 width:20vw;
-height:50vh;
+height:45vh;
 background-color: #353537;
 display:flex;
 justify-content:space-around;
@@ -32,12 +35,13 @@ flex-direction:column;
 align-items:center;
 border-bottom-left-radius:8px;
 border-bottom-right-radius:8px;
+padding-top:5px;
 `
 export const Button = styled.button`
-width:40px;
-height:40px;
+width:70px;
+height:70px;
 margin:5px;
-margin-top:19px;
+margin-bottom: 10px;
 border:none;
 font-size:20px;
 border-radius:12%;
